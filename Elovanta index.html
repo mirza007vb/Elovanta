@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elovanta Rewards</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Elovanta</h1>
+    <p>Earn fairly. Grow together.</p>
+    <nav>
+      <button data-page="dashboard">Dashboard</button>
+      <button data-page="surveys">Surveys</button>
+      <button data-page="wallet">Wallet</button>
+      <button data-page="memberships">Memberships</button>
+      <button data-page="referrals">Referrals</button>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="heading">Welcome to Elovanta</h2>
+    <p id="content">Explore activities and rewards.</p>
+
+    <section class="card">
+      <p>Demo balance</p>
+      <h2>₹<span id="balance">0</span></h2>
+      <button id="earn">Try sample activity (+₹3)</button>
+      <p id="message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Elovanta</footer>
+  <script src="app.js"></script>
+</body>
+</html>
